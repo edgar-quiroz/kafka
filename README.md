@@ -8,7 +8,7 @@ Updating alpine default packages
 >RUN apk add openjdk8=8.242.08-r0  
   
 Downloading kafka bins  
-ADD https://downloads.apache.org/kafka/2.5.0/kafka_2.12-2.5.0.tgz kafka_2.12-2.5.0.tgz  
+>ADD https://downloads.apache.org/kafka/2.5.0/kafka_2.12-2.5.0.tgz kafka_2.12-2.5.0.tgz  
   
 Unziping kafka files to /etc folder  
 >RUN tar -xzvf kafka_2.12-2.5.0.tgz  
